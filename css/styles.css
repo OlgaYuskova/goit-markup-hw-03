@@ -7,9 +7,11 @@
     --text-white: #FFFFFF;
     --footer-color: #F4F4FD;
 }
+
 img {
     display: block;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -19,10 +21,11 @@ font-family: 'Roboto', sans-serif;
  color: var(--main-text-color);
 background: var(--background-white) ;
 }
+
 .link {
     text-decoration: none;
-
 }
+
 .hdr{
 background-color: #E7E9FC;
 border-bottom: 1px solid #e7e9fc;
@@ -37,7 +40,6 @@ border-bottom: 1px solid #e7e9fc;
     margin: 0 auto;
     padding: 0 15px;
 }
-
 
 .logo-link {
 padding: 0;
@@ -54,22 +56,23 @@ text-transform: uppercase;
 .link-studio {
 color: var(--main-color);
 }
+
 .nav {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+display: flex;
+align-items: center;
+justify-content: flex-start;
 }
 
 .nav-link {
 color: var(--main-color);
 text-decoration: none;
-
-
 }
+
 .nav-link:hover,
 .nav-link:focus{
 color: var(--links);
 }
+
 .nav-list {
 list-style-type: none;
 font-weight: 500;
@@ -83,16 +86,14 @@ gap: 40px;
 }
 
 .nav-list .link{
-    display: block;
-    padding: 24px 0;
+ display: block;
+ padding: 24px 0;
 }
 
 .address{
 font-style: normal;
-
-
-
 }
+
 .contacts-list {
 list-style-type: none;
 font-size: 16px;
@@ -101,25 +102,35 @@ letter-spacing: 0.02em;
 text-decoration: none;
 display: flex;
 margin: 0;
+gap: 40px;
 }
 
 .contacts-link {
 display: block;
 margin: 0;
 padding: 24px;
-gap: 40px;
 }
 
 .contacts-list .link:hover,
 .contacts-list .link:focus {
 color: var(--links);
 }
+
 .contacts-list .link{
 color: var(--main-text-color);
 }
+
 .section-one {
 background-color: var(--main-color);
+padding: 188px 0;
+display: flex;
 }
+
+.first-text{
+
+}
+
+
 .main-text {
 font-size: 56px;
 color: var(--text-white);
@@ -127,7 +138,10 @@ background-color: var(--main-color);
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
+max-width: 496px;
+
 }
+
 .main-button {
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -137,7 +151,13 @@ background: var(--brand-color);
 line-height: 24px;
 letter-spacing: 0.04em;
 cursor: pointer;
+display: block;
+min-width: 169px;
+height: 56px;
+border: none;
+border-radius: 4px;
 }
+
 .main-button:hover,
 .main-button:focus{
 background-color: #404BBF;
