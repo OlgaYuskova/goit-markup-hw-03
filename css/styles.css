@@ -165,16 +165,27 @@ background-color: #404BBF;
 .section-features {
 padding: 120px 0;
 }
+.visually-hidden{
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+}
 
 .features-list{
     display: flex;
     flex-direction: row;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .feat-list{
 list-style-type: none;
-width: calc((100% - 72px) / 4);
 }
 
 .titlle-list {
