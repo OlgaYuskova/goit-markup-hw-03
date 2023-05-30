@@ -18,6 +18,12 @@ font-family: 'Roboto', sans-serif;
 background: var(--background-white) ;
 }
 
+.list{
+list-style-type: none;
+padding-left: 0;
+margin: 0;
+}
+
 .link {
     text-decoration: none;
 }
@@ -50,6 +56,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 color: var(--brand-color);
 text-transform: uppercase;
+padding-left: 0;
 }
 
 .link-studio {
@@ -100,14 +107,14 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-decoration: none;
 display: flex;
-margin: 0;
+margin: 0 0 0 332px;
 gap: 40px;
 }
 
 .contacts-link {
 display: block;
 margin: 0;
-padding: 24px;
+padding: 24px 0;
 }
 
 .contacts-list .link:hover,
@@ -126,10 +133,11 @@ display: flex;
 }
 
 .first-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
+
 .main-text {
 font-size: 56px;
 color: var(--text-white);
@@ -162,30 +170,23 @@ border-radius: 4px;
 .main-button:focus{
 background-color: #404BBF;
 }
+
 .section-features {
 padding: 120px 0;
 }
+
 .visually-hidden{
-    position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        padding: 0;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
+    display: none;
 }
 
 .features-list{
     display: flex;
     flex-direction: row;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
 
 .feat-list{
-list-style-type: none;
+width: 264px;
 }
 
 .titlle-list {
