@@ -204,6 +204,11 @@ color: var(--main-text-color);
 line-height: 24px;
 letter-spacing: 0.02em;
 }
+
+.section-wawd{
+padding-bottom: 120px;
+}
+
 .second-text {
 font-size: 36px;
 text-align: center;
@@ -211,28 +216,40 @@ color: var(--main-color);
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
+
 .img-list {
-list-style-type: none;
+display: flex;
+gap: 24px;
 }
+
+.wawd-img{
+width: calc((100% - 48px) / 3);
+}
+
 .section-team {
 background-color: #F4F4FD;
+padding: 120px 0;
 }
 .our-team {
 font-size: 36px;
-text-align: centeqr;
 color: var(--main-color);
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
+margin-bottom: 72px;
 }
 .our-team-list {
-list-style: none;
-
+display: flex;
+gap: 24px;
 }
+
 .personal-list{
-    background-color: var(--background-white);
+background-color: var(--background-white);
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
 }
 
 .team-list {
@@ -241,8 +258,10 @@ font-size: 20px;
 color: var(--main-color);
 line-height: 1.2;
 letter-spacing: 0.02em;
-
+text-align: center;
+margin-bottom: 8px
 }
+
 .team-p-list {
 font-size: 16px;
 color: var(--main-text-color);
@@ -251,18 +270,48 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 }
+
+.daniel,
+.camila,
+.tom,
+.mark {
+padding: 32px 16px;
+}
+
 .text-footer {
 font-size: 16px;
 color: var(--footer-color);
 line-height: 24px;
 letter-spacing: 0.02em;
+max-width: 264px;
+padding-left: 0;
 }
+
+
 .footer {
 background: var(--main-color);
+padding: 100px 0;
+height: 312px;
 }
 .link-studio-footer {
 color: var(--footer-color);
 }
+
+.logo-link-footer{
+margin-bottom: 16px;
+font-family: 'Raleway',
+sans-serif;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: var(--brand-color);
+text-transform: uppercase;
+padding-left: 0;
+display: inline-block;
+}
+ 
+/*!----------------------------PORTFOLIO------------------------------- */
 
 .button-list{
 list-style-type: none;
